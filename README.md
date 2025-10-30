@@ -1,16 +1,18 @@
-# crypto_app
+# Crypto App
 
-A new Flutter project.
+Simple Flutter app that shows **live cryptocurrency prices** for **BTC, ETH & USDT** and an embedded **TradingView chart**, built using **Flutter stable version** with **GetX** for state management, routing, and dependency injection.
 
-## Getting Started
+## Features
+- **Custom Dropdown:** Option to select a cypto currrency using custom bottomsheet selector style.
+- **Auto-refresh:** Live price update on every 10 seconds.
+- **Live Price Display:** Displays the real-time price in USD.
+- **TradingView Chart:** Embedded interactive charts for selected coin using a WebView.
+- **Loading Indicator:** Added Loading inferface on each action for better user experience.
+- **Error Handling:** Handled errors on api consumption by providing user feedback with snackbar and optional tooltip.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+- **Framework** Flutter
+- **State Management** GetX
+- **Networking** Dio
+- **API Source** CoinGecko
+- **Chart Integration** TradingView
